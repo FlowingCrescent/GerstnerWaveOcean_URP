@@ -62,7 +62,7 @@ Material:
     - _BaseColor: {r: 0.09910339, g: 1.049595, b: 1.004548, a: 1}
     - _Caustics_Speed: {r: 0.7, g: 0.5, b: -0.7, a: -1}
     - _ReflectColor: {r: 0.15566039, g: 0.6812187, b: 1, a: 1}
-    - _WaterFogColor: {r: 0.045520816, g: 0.3732706, b: 0.874, a: 1}
+    - _WaterFogColor: {r: 0.03357848, g: 0.2658296, b: 0.624, a: 1}
     - _WaveA: {r: -1, g: 0, b: 0.35, a: 1.43}
     - _WaveB: {r: -0.3, g: 0.2, b: 0.5, a: 0.21}
     - _WaveC: {r: 0.2, g: -1, b: 0.1, a: 2.5}
