@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: GerstnerWaveOcean
+  m_Shader: {fileID: 4800000, guid: f0783da5a816c2949b3dcd4834072f3c, type: 3}
+  m_ShaderKeywords: _IsFace _TESSELLATION_EDGE
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CausticTex:
+        m_Texture: {fileID: 2800000, guid: feea67a54f602fe499ce49d05a9d5fa3, type: 3}
+        m_Scale: {x: 0.5, y: 0.5}
+        m_Offset: {x: 0, y: 0}
+    - _FoamNoiseTex:
+        m_Texture: {fileID: 2800000, guid: 45934fd37e91fda4188a77696b8057db, type: 3}
+        m_Scale: {x: 100, y: 100}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: d206f2622ca367d4694b52507f1ba507, type: 3}
+        m_Scale: {x: 50, y: 50}
+        m_Offset: {x: 0, y: 0}
+    - _Skybox:
+        m_Texture: {fileID: 8900000, guid: d4c8dc343ae5d4673b7720ffdb1ddf00, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AirRefractiveIndex: 1
+    - _BackSubsurfaceDistortion: 0.5
+    - _CausticIntensity: 0.5
+    - _FoamIntensity: 8.33
+    - _FogDensity: 0.02
+    - _Frequency: 1
+    - _FresnelPower: 5
+    - _FrontSSSIntensity: 0.2
+    - _FrontSubsurfaceDistortion: 0.5
+    - _HeightCorrection: 0
+    - _NormalScale: 0.3
+    - _RefractionStrength: 0.03
+    - _Shininess: 0.001
+    - _Speed: 0.2
+    - _TESSELLATION_EDGE: 1
+    - _TessellationEdgeLength: 7
+    - _TessellationUniform: 38.8
+    - _WaterRefractiveIndex: 1.33
+    m_Colors:
+    - _BaseColor: {r: 0.09910339, g: 1.049595, b: 1.004548, a: 1}
+    - _Caustics_Speed: {r: 0.7, g: 0.5, b: -0.7, a: -1}
+    - _ReflectColor: {r: 0.15566039, g: 0.6812187, b: 1, a: 1}
+    - _WaterFogColor: {r: 0.045520816, g: 0.3732706, b: 0.874, a: 1}
+    - _WaveA: {r: -1, g: 0, b: 0.35, a: 1.43}
+    - _WaveB: {r: -0.3, g: 0.2, b: 0.5, a: 0.21}
+    - _WaveC: {r: 0.2, g: -1, b: 0.1, a: 2.5}
+    - _WaveD: {r: -0.5, g: -0.1, b: 0.18, a: 0.03}
+    - _WaveE: {r: -2.03, g: -15, b: 0.15, a: 1.5}
+    - _WaveF: {r: 1, g: -7, b: 0.25, a: 0.1}
+    - _WaveG: {r: -0.2, g: -0.4, b: 0.2, a: 0.2}
+    - _WaveH: {r: -2, g: 5, b: 0.4, a: 0.4}
+    - _WaveI: {r: 3, g: -5, b: 0.2, a: 0.6}
+    - _WaveJ: {r: 0.2, g: 0.4, b: 0.3, a: 0.5}
+    - _WaveK: {r: 2, g: 3, b: 0.4, a: 4}
+    - _WaveL: {r: 0.4, g: -0.6, b: 0.1, a: 7}
